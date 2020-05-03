@@ -1,0 +1,814 @@
+{
+  "mlock2": [
+    "CAP_IPC_LOCK"
+  ],
+  "lock": [],
+  "setresuid": [
+    "CAP_SETGID",
+    "CAP_SETUID"
+  ],
+  "setreuid32": [
+    "CAP_SETGID",
+    "CAP_SETUID"
+  ],
+  "mknodat": [
+    "CAP_MKNOD"
+  ],
+  "lookup_dcookie": [],
+  "mount": [],
+  "ioctl_userfaultfd": [],
+  "setpgrp": [],
+  "sendfile": [],
+  "afs_syscall": [],
+  "fcntl64": [
+    "CAP_LEASE",
+    "CAP_SYS_RESOURCE"
+  ],
+  "fsync": [],
+  "msync": [],
+  "times": [],
+  "statx": [],
+  "listxattr": [],
+  "rt_sigprocmask": [],
+  "fstatat": [],
+  "process_vm_writev": [],
+  "sysinfo": [],
+  "read": [],
+  "inl_p": [],
+  "kexec_file_load": [
+    "CAP_SYS_BOOT"
+  ],
+  "statvfs": [],
+  "mq_getsetattr": [],
+  "getsockopt": [],
+  "io_setup": [],
+  "break": [],
+  "s390_pci_mmio_read": [],
+  "mq_unlink": [],
+  "setregid32": [
+    "CAP_SETGID",
+    "CAP_SETUID"
+  ],
+  "perf_event_open": [],
+  "sethostname": [],
+  "pread64": [],
+  "outb": [],
+  "sigqueue": [],
+  "munlock": [
+    "CAP_IPC_LOCK"
+  ],
+  "timer_settime": [],
+  "bpf": [],
+  "msgctl": [
+    "CAP_IPC_OWNER",
+    "CAP_SYS_RESOURCE"
+  ],
+  "ftruncate": [],
+  "eventfd": [],
+  "readdir": [],
+  "close": [],
+  "fcntl": [
+    "CAP_LEASE",
+    "CAP_SYS_RESOURCE"
+  ],
+  "mincore": [],
+  "sync_file_range": [],
+  "fstatfs": [],
+  "inotify_rm_watch": [],
+  "getsockname": [],
+  "setpgid": [],
+  "madvise1": [],
+  "set_robust_list": [
+    "CAP_SYS_PTRACE"
+  ],
+  "getpriority": [
+    "CAP_SYS_NICE"
+  ],
+  "waitpid": [],
+  "getdomainname": [],
+  "ioctl_xfs_getbmapx": [],
+  "syscalls": [],
+  "stat64": [],
+  "inl": [],
+  "s390_guarded_storage": [],
+  "truncate64": [],
+  "modify_ldt": [],
+  "renameat2": [
+    "CAP_FOWNER",
+    "CAP_MKNOD"
+  ],
+  "getcontext": [],
+  "wait3": [],
+  "sbrk": [],
+  "fstatat64": [],
+  "getpgid": [],
+  "execve": [],
+  "sigpending": [],
+  "stime": [
+    "CAP_SYS_TIME"
+  ],
+  "unshare": [],
+  "socketcall": [],
+  "setfsgid32": [
+    "CAP_SET"
+  ],
+  "inb_p": [],
+  "utimes": [
+    "CAP_DAC_OVERRIDE",
+    "CAP_FOWNER"
+  ],
+  "lstat64": [],
+  "rmdir": [
+    "CAP_FOWNER"
+  ],
+  "setresgid": [
+    "CAP_SETGID",
+    "CAP_SETUID"
+  ],
+  "lchown32": [
+    "CAP_CHOWN"
+  ],
+  "killpg": [],
+  "get_mempolicy": [],
+  "sigaltstack": [],
+  "pwritev": [],
+  "dup": [],
+  "pwrite": [],
+  "getsid": [],
+  "query_module": [],
+  "exit_group": [],
+  "lseek": [],
+  "mremap": [],
+  "io_submit": [],
+  "get_robust_list": [
+    "CAP_SYS_PTRACE"
+  ],
+  "rename": [
+    "CAP_FOWNER",
+    "CAP_MKNOD"
+  ],
+  "llseek": [],
+  "shmat": [
+    "CAP_IPC_OWNER"
+  ],
+  "outw": [],
+  "outl": [],
+  "setsockopt": [],
+  "fattach": [],
+  "inotify_add_watch": [],
+  "sendfile64": [],
+  "munmap": [],
+  "recv": [],
+  "ioprio_get": [
+    "CAP_SYS_NICE"
+  ],
+  "setfsuid32": [
+    "CAP_SE"
+  ],
+  "socket": [],
+  "sysfs": [],
+  "mmap2": [],
+  "ioprio_set": [
+    "CAP_SYS_NICE"
+  ],
+  "sigprocmask": [],
+  "munlockall": [
+    "CAP_IPC_LOCK"
+  ],
+  "timerfd_gettime": [
+    "CAP_WAKE_ALARM"
+  ],
+  "getpid": [],
+  "pidfd_open": [],
+  "prof": [],
+  "linkat": [
+    "CAP_DAC_READ_SEARCH"
+  ],
+  "readahead": [],
+  "gethostid": [],
+  "copy_file_range": [],
+  "setreuid": [
+    "CAP_SETGID",
+    "CAP_SETUID"
+  ],
+  "epoll_create": [],
+  "perfmonctl": [],
+  "ioctl_xfs_bulkstat": [],
+  "personality": [],
+  "ioctl_fat": [],
+  "dup2": [],
+  "lsetxattr": [],
+  "umount": [],
+  "pwritev2": [],
+  "msgop": [
+    "CAP_IPC_OWNER",
+    "CAP_SYS_RESOURCE"
+  ],
+  "security": [],
+  "ioctl_ns": [],
+  "getrusage": [],
+  "ioctl_iflags": [
+    "CAP_FOWNER",
+    "CAP_LINUX_IMMUTABLE",
+    "CAP_SYS_RESOURCE"
+  ],
+  "ioctl_console": [],
+  "utime": [
+    "CAP_DAC_OVERRIDE",
+    "CAP_FOWNER"
+  ],
+  "getmsg": [],
+  "tee": [],
+  "setup": [],
+  "removexattr": [],
+  "msgsnd": [
+    "CAP_IPC_OWNER",
+    "CAP_SYS_RESOURCE"
+  ],
+  "bind": [],
+  "ustat": [],
+  "getuid": [],
+  "sched_setparam": [
+    "CAP_SYS_NICE"
+  ],
+  "alarm": [],
+  "clock_nanosleep": [],
+  "io_cancel": [],
+  "epoll_ctl": [
+    "CAP_BLOCK_SUSPEND"
+  ],
+  "ioctl": [],
+  "sync": [],
+  "truncate": [],
+  "fchownat": [
+    "CAP_CHOWN"
+  ],
+  "fstatvfs": [],
+  "getpmsg": [],
+  "move_pages": [
+    "CAP_SYS_NICE"
+  ],
+  "oldfstat": [],
+  "open": [
+    "CAP_DAC_READ_SEARCH",
+    "CAP_FOWNER"
+  ],
+  "intro": [],
+  "clock_getres": [],
+  "putpmsg": [],
+  "s390_sthyi": [],
+  "shutdown": [],
+  "semop": [
+    "CAP_IPC_OWNER"
+  ],
+  "uselib": [],
+  "geteuid": [],
+  "delete_module": [
+    "CAP_SYS_MODULE"
+  ],
+  "fgetxattr": [],
+  "getrandom": [],
+  "splice": [],
+  "setsid": [],
+  "semctl": [
+    "CAP_IPC_OWNER"
+  ],
+  "fsetxattr": [],
+  "timer_getoverrun": [],
+  "quotactl": [
+    "CAP_SYS_AD"
+  ],
+  "oldolduname": [],
+  "prctl": [
+    "CAP_AMBIENT",
+    "CAP_AMBIENT_CLEAR_ALL",
+    "CAP_AMBIENT_IS_SET",
+    "CAP_AMBIENT_LOWER",
+    "CAP_AMBIENT_RAISE",
+    "CAP_SETPCAP",
+    "CAP_SYS_RESOURCE"
+  ],
+  "fstatfs64": [],
+  "symlinkat": [],
+  "setgid32": [
+    "CAP_SETGID"
+  ],
+  "restart_syscall": [],
+  "pselect": [],
+  "vm86old": [],
+  "setuid32": [
+    "CAP_SETUID"
+  ],
+  "pause": [],
+  "rt_sigpending": [],
+  "sched_yield": [],
+  "olduname": [],
+  "gettid": [],
+  "pipe": [],
+  "exit": [],
+  "preadv2": [],
+  "eventfd2": [],
+  "mlock": [
+    "CAP_IPC_LOCK"
+  ],
+  "lgetxattr": [],
+  "posix_fadvise": [],
+  "prlimit64": [
+    "CAP_SYS_RESOURCE"
+  ],
+  "membarrier": [],
+  "setns": [
+    "CAP_SYS_CHROOT"
+  ],
+  "sched_get_priority_min": [],
+  "set_thread_area": [],
+  "free_hugepages": [],
+  "userfaultfd": [
+    "CAP_SYS_PTRACE"
+  ],
+  "nanosleep": [],
+  "nfsservctl": [],
+  "idle": [],
+  "setrlimit": [
+    "CAP_SYS_RESOURCE"
+  ],
+  "ioctl_xfs_goingdown": [],
+  "fdetach": [],
+  "swapoff": [],
+  "stty": [],
+  "chown": [
+    "CAP_CHOWN"
+  ],
+  "outsl": [],
+  "ftruncate64": [],
+  "rt_sigreturn": [],
+  "ioctl_list": [],
+  "shmop": [
+    "CAP_IPC_OWNER"
+  ],
+  "oldlstat": [],
+  "msgget": [
+    "CAP_IPC_OWNER"
+  ],
+  "pciconfig_iobase": [],
+  "kexec_load": [
+    "CAP_SYS_BOOT"
+  ],
+  "kill": [
+    "CAP_KILL"
+  ],
+  "pidfd_getfd": [],
+  "fremovexattr": [],
+  "getunwind": [],
+  "flistxattr": [],
+  "mbind": [
+    "CAP_SYS_NICE"
+  ],
+  "reboot": [
+    "CAP_SYS_BOOT"
+  ],
+  "sendto": [],
+  "arch_prctl": [],
+  "newfstatat": [],
+  "getegid32": [],
+  "futex": [],
+  "listen": [],
+  "_sysctl": [],
+  "ioctl_xfs_inumbers": [],
+  "pwrite64": [],
+  "bdflush": [],
+  "statfs": [],
+  "getgid32": [],
+  "sched_setaffinity": [
+    "CAP_SYS_NICE"
+  ],
+  "request_key": [],
+  "setitimer": [],
+  "io_getevents": [],
+  "rt_sigqueueinfo": [],
+  "mmap": [],
+  "shmdt": [
+    "CAP_IPC_OWNER"
+  ],
+  "sethostid": [],
+  "sigsuspend": [],
+  "signal": [],
+  "getdents": [],
+  "setpriority": [
+    "CAP_SYS_NICE"
+  ],
+  "ioctl_tty": [],
+  "faccessat": [],
+  "capget": [
+    "CAP_SETPCAP"
+  ],
+  "getcwd": [],
+  "getresgid32": [],
+  "wait4": [],
+  "umount2": [],
+  "gettimeofday": [
+    "CAP_SYS_TIME"
+  ],
+  "sched_getparam": [
+    "CAP_SYS_NICE"
+  ],
+  "sigwaitinfo": [],
+  "ioperm": [
+    "CAP_SYS_RAWIO"
+  ],
+  "set_tid_address": [],
+  "send": [],
+  "ioctl_xfs_fsbulkstat": [],
+  "setresgid32": [
+    "CAP_SETGID",
+    "CAP_SETUID"
+  ],
+  "acct": [
+    "CAP_SYS_PACCT"
+  ],
+  "io_destroy": [],
+  "ioctl_xfs_scrub_metadata": [],
+  "fanotify_init": [],
+  "outw_p": [],
+  "time": [],
+  "insw": [],
+  "semtimedop": [
+    "CAP_IPC_OWNER"
+  ],
+  "sync_file_range2": [],
+  "unimplemented": [],
+  "getresgid": [],
+  "ioctl_xfs_fsop_geometry": [],
+  "sendmmsg": [],
+  "add_key": [],
+  "madvise": [],
+  "_exit": [],
+  "arm_fadvise64_64": [],
+  "getuid32": [],
+  "fadvise64": [],
+  "socketpair": [],
+  "setgroups32": [
+    "CAP_SETGID"
+  ],
+  "_newselect": [],
+  "flock": [],
+  "semget": [
+    "CAP_IPC_OWNER"
+  ],
+  "putmsg": [],
+  "create_module": [
+    "CAP_SYS_MODULE"
+  ],
+  "spu_run": [],
+  "_syscall": [],
+  "fchmodat": [
+    "CAP_FOWNER",
+    "CAP_FSETID"
+  ],
+  "sigaction": [],
+  "ugetrlimit": [
+    "CAP_SYS_RESOURCE"
+  ],
+  "rt_sigsuspend": [],
+  "pciconfig_read": [],
+  "sched_setattr": [],
+  "clock_settime": [],
+  "rt_tgsigqueueinfo": [],
+  "sched_getaffinity": [
+    "CAP_SYS_NICE"
+  ],
+  "remap_file_pages": [],
+  "rt_sigtimedwait": [],
+  "recvfrom": [],
+  "prlimit": [
+    "CAP_SYS_RESOURCE"
+  ],
+  "openat": [
+    "CAP_DAC_READ_SEARCH",
+    "CAP_FOWNER"
+  ],
+  "nice": [
+    "CAP_SYS_NICE"
+  ],
+  "getdtablesize": [],
+  "getpgrp": [],
+  "chown32": [
+    "CAP_CHOWN"
+  ],
+  "setfsgid": [
+    "CAP_SET"
+  ],
+  "s390_runtime_instr": [],
+  "openat2": [],
+  "connect": [],
+  "execveat": [],
+  "clone2": [
+    "CAP_SET",
+    "CAP_SETUID"
+  ],
+  "mkdirat": [],
+  "uname": [],
+  "ioctl_xfs_fsinumbers": [],
+  "epoll_create1": [],
+  "arm_fadvise": [],
+  "settimeofday": [
+    "CAP_SYS_TIME"
+  ],
+  "oldstat": [],
+  "outsw": [],
+  "getppid": [],
+  "timerfd_settime": [
+    "CAP_WAKE_ALARM"
+  ],
+  "recvmmsg": [],
+  "fchdir": [],
+  "llistxattr": [],
+  "chroot": [
+    "CAP_SYS_CHROOT"
+  ],
+  "getdents64": [],
+  "access": [],
+  "symlink": [],
+  "get_kernel_syms": [],
+  "phys": [],
+  "iopl": [
+    "CAP_SYS_RAWIO"
+  ],
+  "shmctl": [
+    "CAP_IPC_LOCK",
+    "CAP_IPC_OWNER"
+  ],
+  "ioctl_xfs_ag_geometry": [],
+  "mq_timedsend": [],
+  "ioctl_xfs_fsgetxattr": [
+    "CAP_LINUX_IMMUTABLE"
+  ],
+  "preadv": [],
+  "swapon": [],
+  "mq_timedreceive": [],
+  "spu_create": [
+    "CAP_SYS_NICE"
+  ],
+  "setgid": [
+    "CAP_SETGID"
+  ],
+  "chmod": [
+    "CAP_FOWNER",
+    "CAP_FSETID"
+  ],
+  "fanotify_mark": [],
+  "sendmsg": [],
+  "vmsplice": [],
+  "waitid": [],
+  "outb_p": [],
+  "pread": [],
+  "tkill": [],
+  "ioctl_getfsmap": [],
+  "readv": [],
+  "stat": [],
+  "setgroups": [
+    "CAP_SETGID"
+  ],
+  "statfs64": [],
+  "ipc": [],
+  "vserver": [],
+  "outsb": [],
+  "sched_getscheduler": [],
+  "keyctl": [
+    "CAP_SETUID"
+  ],
+  "pciconfig_write": [],
+  "setcontext": [],
+  "fstat": [],
+  "rt_sigaction": [],
+  "setxattr": [],
+  "__clone2": [
+    "CAP_SET",
+    "CAP_SETUID"
+  ],
+  "setresuid32": [
+    "CAP_SETGID",
+    "CAP_SETUID"
+  ],
+  "syscall": [],
+  "timer_delete": [],
+  "msgrcv": [
+    "CAP_IPC_OWNER",
+    "CAP_SYS_RESOURCE"
+  ],
+  "lchown": [
+    "CAP_CHOWN"
+  ],
+  "timer_gettime": [],
+  "lremovexattr": [],
+  "getxattr": [],
+  "accept4": [],
+  "pkey_mprotect": [],
+  "ioctl_ficlonerange": [],
+  "signalfd": [],
+  "kcmp": [
+    "CAP_SYS_PTRACE"
+  ],
+  "arm_sync_file_range": [],
+  "name_to_handle_at": [
+    "CAP_DAC_READ_SEARCH"
+  ],
+  "renameat": [
+    "CAP_FOWNER",
+    "CAP_MKNOD"
+  ],
+  "mprotect": [],
+  "memfd_create": [],
+  "writev": [],
+  "ioctl_ficlone": [],
+  "setuid": [
+    "CAP_SETUID"
+  ],
+  "sigreturn": [],
+  "tgkill": [],
+  "vhangup": [
+    "CAP_SYS_TTY_CONFIG"
+  ],
+  "link": [
+    "CAP_DAC_READ_SEARCH"
+  ],
+  "mpx": [],
+  "cacheflush": [],
+  "pselect6": [],
+  "readlink": [],
+  "gethostname": [],
+  "recvmsg": [],
+  "capset": [
+    "CAP_SETPCAP"
+  ],
+  "readlinkat": [],
+  "ioctl_xfs_fscounts": [],
+  "ioctl_xfs_getresblks": [],
+  "sched_getattr": [],
+  "vm86": [],
+  "fallocate": [],
+  "fadvise64_64": [],
+  "getitimer": [],
+  "gtty": [],
+  "alloc_hugepages": [],
+  "accept": [],
+  "syslog": [
+    "CAP_SYSLOG"
+  ],
+  "outl_p": [],
+  "utimensat": [
+    "CAP_DAC_OVERRIDE",
+    "CAP_FOWNER"
+  ],
+  "inw": [],
+  "lstat": [],
+  "seteuid": [
+    "CAP_SETGID",
+    "CAP_SETUID"
+  ],
+  "getresuid32": [],
+  "getpagesize": [],
+  "getegid": [],
+  "epoll_wait": [],
+  "finit_module": [
+    "CAP_SYS_MODULE"
+  ],
+  "chdir": [],
+  "setregid": [
+    "CAP_SETGID",
+    "CAP_SETUID"
+  ],
+  "insl": [],
+  "mkdir": [],
+  "pidfd_send_signal": [],
+  "process_vm_readv": [],
+  "inw_p": [],
+  "isastream": [],
+  "seccomp": [],
+  "getgid": [],
+  "_llseek": [],
+  "fstat64": [],
+  "pkey_free": [],
+  "getgroups32": [
+    "CAP_SETGID"
+  ],
+  "getgroups": [
+    "CAP_SETGID"
+  ],
+  "getcpu": [],
+  "fdatasync": [],
+  "sigtimedwait": [],
+  "geteuid32": [],
+  "write": [],
+  "clone": [
+    "CAP_SET",
+    "CAP_SETUID"
+  ],
+  "ioctl_fideduperange": [],
+  "vfork": [],
+  "setegid": [
+    "CAP_SETGID",
+    "CAP_SETUID"
+  ],
+  "sched_setscheduler": [],
+  "syncfs": [],
+  "set_mempolicy": [],
+  "mlockall": [
+    "CAP_IPC_LOCK"
+  ],
+  "insb": [],
+  "pivot_root": [],
+  "getresuid": [],
+  "inb": [],
+  "creat": [
+    "CAP_DAC_READ_SEARCH",
+    "CAP_FOWNER"
+  ],
+  "futimesat": [],
+  "select_tut": [],
+  "fork": [],
+  "pipe2": [],
+  "ssetmask": [],
+  "getpeername": [],
+  "mknod": [
+    "CAP_MKNOD"
+  ],
+  "mq_notify": [],
+  "fchmod": [
+    "CAP_FOWNER",
+    "CAP_FSETID"
+  ],
+  "clone3": [
+    "CAP_SET",
+    "CAP_SETUID"
+  ],
+  "subpage_prot": [],
+  "select": [],
+  "getrlimit": [
+    "CAP_SYS_RESOURCE"
+  ],
+  "umask": [],
+  "fchown32": [
+    "CAP_CHOWN"
+  ],
+  "dup3": [],
+  "ptrace": [
+    "CAP_SYS_PTRACE"
+  ],
+  "setdomainname": [],
+  "shmget": [
+    "CAP_IPC_LOCK",
+    "CAP_IPC_OWNER"
+  ],
+  "get_thread_area": [],
+  "pkey_alloc": [],
+  "mq_open": [
+    "CAP_SYS_RESOURCE"
+  ],
+  "sysctl": [],
+  "timerfd_create": [
+    "CAP_WAKE_ALARM"
+  ],
+  "open_by_handle_at": [
+    "CAP_DAC_READ_SEARCH"
+  ],
+  "unlink": [
+    "CAP_FOWNER"
+  ],
+  "s390_pci_mmio_write": [],
+  "brk": [],
+  "migrate_pages": [
+    "CAP_SYS_NICE"
+  ],
+  "setfsuid": [
+    "CAP_SE"
+  ],
+  "sched_get_priority_max": [],
+  "init_module": [
+    "CAP_SYS_MODULE"
+  ],
+  "inotify_init": [],
+  "inotify_init1": [],
+  "adjtimex": [
+    "CAP_SYS_TIME"
+  ],
+  "sched_rr_get_interval": [],
+  "sgetmask": [],
+  "fchown": [
+    "CAP_CHOWN"
+  ],
+  "tuxcall": [],
+  "signalfd4": [],
+  "ppoll": [],
+  "unlinkat": [
+    "CAP_FOWNER"
+  ],
+  "poll": [],
+  "timer_create": [
+    "CAP_WAKE_ALARM"
+  ],
+  "epoll_pwait": [],
+  "_Exit": [],
+  "wait": [],
+  "clock_gettime": []
+}
