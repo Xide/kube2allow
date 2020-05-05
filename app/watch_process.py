@@ -68,7 +68,14 @@ def update_cm(pod, pod_namespace, container_name, infos):
     cm_data = {
         'capabilities': json.dumps({
             'drop': ['all'],
-            'add': list(caps.keys())
+            'add': list(
+                map(
+                    # Fix in order to remove CAP_ prefix, which is auto appended
+                    # on cloud providers such as GKE.
+                    lambda x: x.lstrip('CAP_'),
+                    caps.keys()
+                )
+            )
         }),
         'required_by': json.dumps(caps)
     }
