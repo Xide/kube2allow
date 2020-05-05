@@ -3,7 +3,7 @@ app/caps_mapping.json:
 	python hack/parse_caps_mapping.py
 
 upload:
-	docker build -t sigbilly/kube2allow:latest .
+	docker build -t sigbilly/kube2allow:latest app
 	docker push sigbilly/kube2allow:latest
 
 re:
