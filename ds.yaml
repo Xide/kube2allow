@@ -59,6 +59,7 @@ spec:
             fieldRef:
               fieldPath: spec.nodeName
         securityContext:
+          privileged: true
           runAsUser: 0
           capabilities:
             add:
